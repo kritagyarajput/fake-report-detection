@@ -87,7 +87,7 @@ with st.form(key='water_quality_form'):
     with row4[4]:
         fecal_strep_max = st.number_input("Fecal Strep Max", min_value=0.0, max_value=100000.0, value=20.0)
 
-    submit_button = st.form_submit_button(label="Predict Water Quality")
+    submit_button = st.form_submit_button(label="Predict Report Authenticity")
 
 # Process inputs and predict
 if submit_button:
